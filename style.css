@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Great+Vibes&display=swap');
+
+.txt1 {
+    background-color: rgba(255, 115, 0, 0.267);
+    color:rgb(74, 10, 134);
+    padding: 8px 15px 8px 15px;
+    border-radius: 24px;
+    border: 1px solid rgb(74, 10, 134);
+    margin-bottom: 8px;
+    font-family: "Carter One", system-ui;
+}
+
+.txt2 {
+    background-color: rgba(228, 106, 139, 0.267);
+    color:rgb(74, 10, 134);
+    padding: 8px 15px 8px 15px;
+    border-radius: 24px;
+    border: 1px solid rgb(74, 10, 134);
+    margin-bottom: 8px;
+    font-family: "Carter One", system-ui;
+}
+
+.txt3 {
+    background-color: rgba(206, 23, 209, 0.267);
+    color:rgb(74, 10, 134);
+    padding: 8px 15px 8px 15px;
+    border-radius: 24px;
+    border: 1px solid rgb(74, 10, 134);
+    margin-bottom: 8px;
+    font-family: "Carter One", system-ui;
+}
+
+#button1 {
+    background-color: rgba(255, 115, 0, 0.67);
+    color:rgb(74, 10, 134);
+    padding: 8px 15px 8px 15px;
+    border-radius: 24px;
+    border: 1px solid rgb(74, 10, 134);
+    font-family: "Carter One", system-ui;
+}
+
+#button2 {
+    background-color: rgba(243, 24, 104, 0.67);
+    color:rgb(74, 10, 134);
+    padding: 8px 15px 8px 15px;
+    border-radius: 24px;
+    border: 1px solid rgb(74, 10, 134);
+    font-family: "Carter One", system-ui;
+}
+
+#button3 {
+    background-color: rgba(149, 21, 229, 0.67);
+    color:rgb(74, 10, 134);
+    padding: 8px 15px 8px 15px;
+    border-radius: 24px;
+    border: 1px solid rgb(74, 10, 134);
+    font-family: "Carter One", system-ui;
+}
+
+#resultsFre {
+    font-size: 20px;
+    color: rgba(134, 63, 201);
+    margin: 20px 0px 12px 0px;
+    padding: 12px;
+    border: 5px solid rgba(255, 115, 0, 0.67);
+    border-radius: 24px;
+}
+
+#resultsRe {
+    font-size: 20px;
+    color: rgba(134, 63, 201);
+    margin: 20px 0px 12px 0px;
+    padding: 12px;
+    border: 5px solid rgba(243, 24, 104, 0.67);
+    border-radius: 24px;
+}
+
+#resultsD {
+    font-size: 20px;
+    color: rgba(134, 63, 201);
+    margin: 20px 0px 12px 0px;
+    padding: 12px;
+    border: 5px solid rgba(149, 21, 229, 0.67);
+    border-radius: 24px;
+}
+
+.slc1 {
+    background-color: rgba(255, 115, 0, 0.267);
+    color:rgb(37, 1, 70); 
+    padding: 8px 15px 8px 15px;
+    border-radius: 24px;
+    border: 1px solid rgb(74, 10, 134);
+    margin-bottom: 8px;
+    font-family: "Carter One", system-ui;
+}
+
+.slc2 {
+    background-color: rgba(228, 106, 139, 0.267);
+    color:rgb(37, 1, 70); 
+    padding: 8px 15px 8px 15px;
+    border-radius: 24px;
+    border: 1px solid rgb(74, 10, 134);
+    margin-bottom: 8px;
+    font-family: "Carter One", system-ui;
+}
+
+.slc3 {
+    background-color: rgba(206, 23, 209, 0.267);
+    color:rgb(37, 1, 70); 
+    padding: 8px 15px 8px 15px;
+    border-radius: 24px;
+    border: 1px solid rgb(74, 10, 134);
+    margin-bottom: 8px;
+    font-family: "Carter One", system-ui;
+}
+
+#d-div, #r-div {
+    display: none;
+}

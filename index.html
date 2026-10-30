@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title> JS101 WebSite </title>
+        <meta name="viewport" contect="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body id="background1">
+        <script src="script.js">
+        </script>
+
+        <link rel="stylesheet" href="style.css">
+        Change your background theme:
+        <select id="bgs" onchange="changeBg()">
+            <option value="white">White</option>
+            <option value="rgba(123, 12, 33, 0.83)">Red</option>
+            <option value="rgba(82, 124, 167, 0.83)">Blue</option>
+            <option value="rgba(167, 175, 115, 0.83)">Yellow</option>
+        </select>
+        <br>
+        Choose calculator type:
+        <select id="calc" onchange="changeCalc()">
+            <option value="f">Frequency</option>
+            <option value="r">Resisnace</option>
+            <option value="d">Duty cycle</option>
+        </select>
+        <br>
+        <h1> FabLab Web NE555 Frequency Calculator</h1>
+
+        <div id="f-div">
+            <p>Please enter value:</p>
+            <input type="number" id="ra" class="txt1" placeholder="Write Ra value"/>
+            <select id="sra" class="slc1">
+                <option value="0">Ohm</option>
+                <option value="3">KOhm</option>
+                <option value="6">MOhm</option>
+            </select>
+            <br>
+            <input type="number" id="rb" class="txt1" placeholder="Write Rb value"/>
+            <select id="srb" class="slc1">
+                <option value="0">Ohm</option>
+                <option value="3">KOhm</option>
+                <option value="6">MOhm</option>
+            </select>
+            <br>
+            <input type="number" id="c1" class="txt1" placeholder="Write C value"/>
+            <select id="src1" class="slc1">
+                <option value="-12">pF</option>
+                <option value="-9">nF</option>
+                <option value="-6">uF</option>
+            </select>
+            <br>
+            <button onclick="onButtonClick1()" id="button1">PRESSS</button>
+            <div id="resultsFre"></div>
+        </div>
+
+        <div id="r-div">
+            <p>Please enter value:</p>
+            <input type="number" id="f" class="txt2" placeholder="Write f value"/>
+            <select id="srf" class="slc2">
+                <option value="0">Hz</option>
+                <option value="3">KHz</option>
+            </select>
+            <br>
+            <input type="number" id="c2" class="txt2" placeholder="Write C value"/>
+            <select id="src2" class="slc2">
+                <option value="-12">pF</option>
+                <option value="-9">nF</option>
+                <option value="-6">uF</option>
+            </select>
+            <br>
+            <button onclick="onButtonClick2()" id="button2">PRESSS</button>
+            <div id="resultsRe"></div>
+        </div>
+         
+        <div id="d-div">
+            <p>Please enter value:</p>
+            <input type="number" id="R1" class="txt3" placeholder="Write f value"/>
+            <select id="sr1" class="slc3">
+                <option value="0">Ohm</option>
+                <option value="3">KOhm</option>
+                <option value="6">MOhm</option>
+            </select>
+            <br>
+            <input type="number" id="R2" class="txt3" placeholder="Write C value"/>
+            <select id="sr2" class="slc3">
+                <option value="0">Ohm</option>
+                <option value="3">KOhm</option>
+                <option value="6">MOhm</option>
+            </select>
+            <br>
+            <button onclick="onButtonClick3()" id="button3">PRESSS</button>
+            <div id="resultsD"></div>
+        </div>
+    </body>
+</html>
